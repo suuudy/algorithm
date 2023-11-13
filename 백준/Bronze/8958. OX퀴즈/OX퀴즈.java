@@ -13,12 +13,7 @@ class Main{
 	
 	
 	    for(int i=0; i<TC; i++) {
-		    String ox;
-		    if(i == TC-1) {
-			    ox = sc.next();
-		    } else {
-			    ox = sc.nextLine();
-		    }
+		    String ox = sc.nextLine();
 		
 		    int cnt = 0;
 		    int sum = 0;
